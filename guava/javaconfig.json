@@ -1,0 +1,47 @@
+{
+  "sourceDirectory" : "src",
+  "testSourceDirectory" : "test",
+  "repositories" : [ {
+    "id" : "sonatype-nexus-snapshots",
+    "url" : "https://oss.sonatype.org/content/repositories/snapshots"
+  }, {
+    "id" : "central",
+    "url" : "https://repo.maven.apache.org/maven2"
+  } ],
+  "dependencies" : [ {
+    "groupId" : "com.google.code.findbugs",
+    "artifactId" : "jsr305",
+    "version" : "1.3.9",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "javax.annotation", "javax.annotation.meta", "javax.annotation.concurrent" ]
+  }, {
+    "groupId" : "com.google.errorprone",
+    "artifactId" : "error_prone_annotations",
+    "version" : "2.0.15",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.google.errorprone.annotations", "com.google.errorprone.annotations.concurrent" ]
+  }, {
+    "groupId" : "com.google.j2objc",
+    "artifactId" : "j2objc-annotations",
+    "version" : "1.1",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.google.j2objc.annotations" ]
+  }, {
+    "groupId" : "org.codehaus.mojo",
+    "artifactId" : "animal-sniffer-annotations",
+    "version" : "1.14",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.codehaus.mojo.animal_sniffer" ]
+  }, {
+    "groupId" : "jdk",
+    "artifactId" : "srczip",
+    "version" : "999",
+    "scope" : "system",
+    "systemPath" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/../src.zip",
+    "packages" : [ ]
+  } ]
+}

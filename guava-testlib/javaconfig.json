@@ -1,0 +1,54 @@
+{
+  "sourceDirectory" : "src",
+  "testSourceDirectory" : "test",
+  "repositories" : [ {
+    "id" : "sonatype-nexus-snapshots",
+    "url" : "https://oss.sonatype.org/content/repositories/snapshots"
+  }, {
+    "id" : "central",
+    "url" : "https://repo.maven.apache.org/maven2"
+  } ],
+  "dependencies" : [ {
+    "groupId" : "com.google.code.findbugs",
+    "artifactId" : "jsr305",
+    "version" : "1.3.9",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "javax.annotation", "javax.annotation.meta", "javax.annotation.concurrent" ]
+  }, {
+    "groupId" : "com.google.errorprone",
+    "artifactId" : "error_prone_annotations",
+    "version" : "2.0.15",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.google.errorprone.annotations", "com.google.errorprone.annotations.concurrent" ]
+  }, {
+    "groupId" : "com.google.j2objc",
+    "artifactId" : "j2objc-annotations",
+    "version" : "1.1",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.google.j2objc.annotations" ]
+  }, {
+    "groupId" : "com.google.guava",
+    "artifactId" : "guava",
+    "version" : "22.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.google.common.annotations", "com.google.common.base", "com.google.common.graph", "com.google.common.hash", "com.google.common.escape", "com.google.common.reflect", "com.google.common.html", "com.google.common.util.concurrent", "com.google.thirdparty.publicsuffix", "com.google.common.net", "com.google.common.math", "com.google.common.base.internal", "com.google.common.primitives", "com.google.common.cache", "com.google.common.xml", "com.google.common.eventbus", "com.google.common.io", "com.google.common.collect" ]
+  }, {
+    "groupId" : "junit",
+    "artifactId" : "junit",
+    "version" : "4.8.2",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.hamcrest.internal", "org.junit.runners", "org.junit.experimental.theories", "org.junit.experimental", "org.junit.internal.requests", "org.junit.experimental.results", "org.junit.internal.runners.model", "org.junit.internal.builders", "junit.textui", "org.junit.experimental.categories", "org.junit.experimental.theories.internal", "junit.extensions", "org.junit.internal.runners.statements", "org.junit.experimental.max", "org.junit.runner.notification", "org.junit.experimental.theories.suppliers", "org.junit.matchers", "org.junit.internal.matchers", "org.junit.runner.manipulation", "org.junit.experimental.runners", "org.junit.rules", "org.junit.runners.model", "org.hamcrest.core", "org.junit.internal", "junit.runner", "org.junit.runner", "org.hamcrest", "org.junit", "junit.framework", "org.junit.internal.runners" ]
+  }, {
+    "groupId" : "com.google.truth",
+    "artifactId" : "truth",
+    "version" : "0.31",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "com.google.common.truth" ]
+  } ]
+}
